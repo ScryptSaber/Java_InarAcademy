@@ -19,6 +19,7 @@ public class Exercise02_01 {
 		// Display the result
 		System.out.println(celsius + " Celsius is " + fahrenheit + " Fahrenheit");
 
+		input.close();
 	}
 
 }
