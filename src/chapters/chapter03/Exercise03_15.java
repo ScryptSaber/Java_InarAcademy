@@ -20,7 +20,7 @@ public class Exercise03_15 {
 		 int lotteryDigit3 =lottery % 10;
 		
 		 // Get digits from guess
-		 int guessDigit1 = guess / 10;
+		 int guessDigit1 = guess / 100;
 		 int guessDigit2 = (guess / 10) % 10;
 		 int guessDigit3 = guess % 10;
 		
