@@ -10,7 +10,7 @@ public class Exercise05_10 {
 			if (i % 5 == 0 && i % 6 == 0) {
 				System.out.print(i + " ");
 				count++;
-				if (count % 10 == 0) {
+				if (count % NUMBER_PER_LINE == 0) {
 					System.out.println();
 				}
 			}
