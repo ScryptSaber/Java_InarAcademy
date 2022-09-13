@@ -7,7 +7,7 @@ public class Exercise05_23 {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 
-		System.out.print("enter n: ");
+		System.out.print("Enter n: ");
 		int n = input.nextInt();
 		double sum1 = 0;
 		double sum2 = 0;
