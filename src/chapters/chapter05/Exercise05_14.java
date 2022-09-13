@@ -14,7 +14,7 @@ public class Exercise05_14 {
 
 		int gcd = (n1 < n2) ? n1 : n2;
 
-		while (n1 % gcd != 0 || n2 % gcd != 0) {
+		while (!(n1 % gcd == 0 && n2 % gcd == 0)) {
 			gcd--;
 		}
 
