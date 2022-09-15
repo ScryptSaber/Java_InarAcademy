@@ -18,7 +18,7 @@ public class Exercise05_14 {
 			gcd--;
 		}
 
-		System.out.println("The greatest common divisor for " + n1 + " and " + n2 + " is " + gcd);
+		System.out.println("The Greatest Common Divisor for " + n1 + " and " + n2 + " is " + gcd);
 
 	}
 
