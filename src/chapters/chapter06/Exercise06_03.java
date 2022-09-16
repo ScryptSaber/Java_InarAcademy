@@ -10,21 +10,34 @@ public class Exercise06_03 {
 		System.out.print("Enter an integer: ");
 		int num = input.nextInt();
 
-		System.out.println("Sum of the digits : " + sumDigits(num));
+		System.out.print(num + " is ");
+		if (isPalindrome(num)) {
+			System.out.print("palindrome");
+		} else {
+			System.out.print("is not palindrome");
+		}
 
 	}
 
-	public static int sumDigits(int num) {
-		int sum = 0;
+	public static int reverse(int n) {
+
 		int k = 0;
+		int reversed = 0;
 
-		while (num > 0){
-			k = num % 10;
-			sum += k;
-			num /= 10;
+		while (n > 0) {
+			k = n % 10;
+			reversed = reversed * 10 + k;
+			n /= 10;
+		}
+		return reversed;
+	}
 
-		} 
-		return sum;
+	public static boolean isPalindrome(int number) {
+		if (number == reverse(number)) {
+			return true;
+		} else {
+			return false;
+		}
 
 	}
 
