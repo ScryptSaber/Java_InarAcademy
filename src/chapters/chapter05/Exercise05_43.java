@@ -17,7 +17,7 @@ public class Exercise05_43 {
 
 			b = a + 2;
 		}
-		System.out.println("The total number of all combinations is " + count);
+		System.out.println("The Total Number of all combinations is " + count);
 	}
 
 }
