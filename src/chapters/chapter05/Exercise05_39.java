@@ -6,27 +6,19 @@ public class Exercise05_39 {
 
 	public static void main(String[] args) {
 
-		final double GOAL_COMMISSION = 30000;
-		double salesAmount, commission, balance;
-		salesAmount = 0;
-		int count = 0;
-		do {
-			balance = commission = 0;
+		double commision = 0;
+		double salesAmount = 30000;
+		double salary = 5000;
+
+		while (commision + salary < 30_000) {
+			commision = 0;
+			commision += 5000 * 0.08;
+			commision += 5000 * 0.10;
+			commision += (salesAmount - 10000) * 0.12;
 			salesAmount += 0.01;
+		}
 
-			if (salesAmount > 10000)
-				commission += (balance = salesAmount - 10000) * 0.12;
-
-			if (salesAmount > 5000)
-				commission += (balance -= balance - 5000) * 0.10;
-
-			if (salesAmount > 0)
-				commission += balance * 0.08;
-			count++;
-		} while (commission < GOAL_COMMISSION);
-
-		System.out.printf("Minimum sales to earn $30,000: $%.0f\n", salesAmount);
-		System.out.println(count);
+		System.out.printf("\nMinimum sales to earn $30,000: $%.2f\n", salesAmount);
 	}
 
 }
