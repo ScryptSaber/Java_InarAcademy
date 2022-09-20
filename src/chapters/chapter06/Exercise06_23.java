@@ -11,7 +11,7 @@ public class Exercise06_23 {
         System.out.print("Enter char:");
         String c = input.next();
 
-        System.out.print("Number of occurences " + count(s, c.charAt(0)));
+        System.out.print("Number Of occurences " + count(s, c.charAt(0)));
 
     }
 
