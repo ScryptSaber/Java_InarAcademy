@@ -4,7 +4,7 @@ public class Exercise06_26 {
     public static void main(String[] args) {
 
         int n = 100;
-        System.out.println("The first " + n + " Palindromic Prime Numbers are :");
+        System.out.println("The first " + n + " palindromic Prime Numbers are :");
         printPalindromicPrimeNumbers(n);
     }
 
