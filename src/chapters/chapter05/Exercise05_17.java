@@ -18,7 +18,7 @@ public class Exercise05_17 {
 			for (int k = 0; k < i; k++) {
 				System.out.print((i - k) + " ");
 			}
-			for (int m = 1; m <= i - 1; m++) {
+			for (int m = 1; m < i ; m++) {
 				System.out.print(m+1 + " ");
 			}
 
