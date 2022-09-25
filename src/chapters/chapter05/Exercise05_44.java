@@ -17,7 +17,7 @@ public class Exercise05_44 {
 
 		}
 
-		System.out.println("The bits are " + bits);
+		System.out.println("The Bits are " + bits);
 
 	}
 
