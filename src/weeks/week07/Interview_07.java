@@ -11,7 +11,7 @@ public class Interview_07 {
         if (isUnique(s)) {
             System.out.println(s + " is Unique.");
         } else {
-            System.out.println(s + " is not unique.");
+            System.out.println(s + " is not Unique.");
         }
     }
 
