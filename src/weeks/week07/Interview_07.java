@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Interview_07 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.print("Enter a string: ");
+        System.out.print("Enter a String: ");
         String s = input.next();
 
         if (isUnique(s)) {
