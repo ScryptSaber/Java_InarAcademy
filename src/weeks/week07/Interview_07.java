@@ -9,7 +9,7 @@ public class Interview_07 {
         String s = input.next();
 
         if (isUnique(s)) {
-            System.out.println(s + " is unique.");
+            System.out.println(s + " is Unique.");
         } else {
             System.out.println(s + " is not Unique.");
         }
