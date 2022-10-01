@@ -15,7 +15,7 @@ public class Interview_08 {
             System.out.println("It is true.");
 
         } else {
-            System.out.println("It is false.");
+            System.out.println("It s false.");
         }
 
 
