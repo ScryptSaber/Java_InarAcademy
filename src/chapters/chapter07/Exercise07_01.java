@@ -23,7 +23,7 @@ public class Exercise07_01 {
 
         }
         for (int i = 0; i < n; i++) {
-            System.out.println("Studenrr " + i + " score is " + array[i] + " and grade is " + grade(array[i], best));
+            System.out.println("Student " + i + " score is " + array[i] + " and grade is " + grade(array[i], best));
         }
     }
 
