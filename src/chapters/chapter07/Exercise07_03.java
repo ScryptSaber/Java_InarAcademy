@@ -6,7 +6,7 @@ public class Exercise07_03 {
     public static void main(String[] args) {
 
         int[] array = new int[100];
-        System.out.print("Enter the integers between 1 and 100:");
+        System.out.print("Enter the Integers between 1 and 100:");
 
         count(array);
         displayResults(array);
