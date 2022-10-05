@@ -31,7 +31,7 @@ public class Exercise07_05 {
     }
     public static void printDistinctNumbers(int[] array, int count) {
         System.out.println("The number of distinct numbers is " + count);
-        System.out.print("The Distinct numbers are ");
+        System.out.print("The DIstinct numbers are ");
         for (int i = 0; i < array.length; i++) {
             if (array[i] > 0)
                 System.out.print(array[i] + " ");
