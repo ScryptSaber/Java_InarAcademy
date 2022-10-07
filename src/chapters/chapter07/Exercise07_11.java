@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Exercise07_11 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.print("Enter ten numbers: ");
+        System.out.print("Enter 10 Numbers: ");
         double[] array = new double[10];
         for (int i = 0; i < array.length; i++) {
             array[i] = input.nextDouble();
