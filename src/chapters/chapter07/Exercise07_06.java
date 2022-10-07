@@ -9,7 +9,8 @@ public class Exercise07_06 {
         int num = 2;
         while (index < NUMBER_OF_PRIMES) {
             if (isPrime(num)) {
-                primeNumbers[index++] = num;
+                primeNumbers[index] = num;
+                index++;
             }
             num++;
         }
