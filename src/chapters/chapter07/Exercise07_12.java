@@ -6,7 +6,7 @@ public class Exercise07_12 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int[] numbers = new int[10];
-        System.out.print("Enter ten numbers: ");
+        System.out.print("Enter 10 numbers: ");
         for (int i = 0; i < numbers.length; i++) {
             numbers[i] = input.nextInt();
         }
