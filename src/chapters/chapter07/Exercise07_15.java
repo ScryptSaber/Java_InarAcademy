@@ -13,7 +13,7 @@ public class Exercise07_15 {
         }
 
         int[] distinct = eliminateDuplicates(array);
-        System.out.print("The Distinct Numbers are: ");
+        System.out.print("The distinct numbers are: ");
         for (int e : distinct) {
             if (e > 0) {
                 System.out.print(e + " ");
