@@ -20,7 +20,7 @@ public class Exercise07_17 {
 
         selectionSort(scores, students);
 
-        System.out.println("student names in decreasing order of their scores:");
+        System.out.println("sudent names in decreasing order of their scores:");
         for (int i = 0; i < students.length; i++) {
             System.out.println(students[i] + " " + scores[i]);
         }
