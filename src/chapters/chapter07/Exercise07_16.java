@@ -74,4 +74,23 @@ public class Exercise07_16 {
         }
         return numbers;
     }
+
+    // I tested it,it is very slow.
+    public static int[] sortSelection(int[] numbers) {
+        for (int i = 0; i < numbers.length - 1; i++) {
+            for (int j = i + 1; j < numbers.length; j++) {
+                if (numbers[j] < numbers[i]) {
+                    swap(numbers, i, j);
+                }
+            }
+        }
+        return numbers;
+    }
+
+    public static void swap(int[] arr, int i, int j) {
+        int temp;
+        temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
+    }
 }
