@@ -14,7 +14,7 @@ public class Exercise07_19 {
             numbers[i] = input.nextInt();
         }
         if (isSorted(numbers)) {
-            System.out.println("The list is already sorted");
+            System.out.println("The list is Already sorted");
 
         } else {
             System.out.println("The list is not sorted");
