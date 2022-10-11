@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Exercise07_19 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.print("Enter list: ");
+        System.out.print("Enter List: ");
         int first = input.nextInt();
 
         int[] numbers = new int[first];
