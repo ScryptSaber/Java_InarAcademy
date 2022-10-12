@@ -13,7 +13,7 @@ public class Exercise07_29 {
 
             }
         } while (sum != 24);
-        System.out.println("Sum is " + sum + "\nThe number of picks that yields the sum of 24: ");
+        System.out.println("Sum is " + sum + "\nThe Number of picks that yields the sum of 24: ");
 
         String[] ranks = {"Ace", "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King"};
         for (int i = 0; i < 4; i++) {
