@@ -7,7 +7,7 @@ public class Exercise07_33 {
         Scanner input = new Scanner(System.in);
 
 
-        String[] zodiacs = {"monkey", "rooster", "dog", "pig", "rat", "ox", "tiger",
+        String[] zodiacs = {"Monkey", "rooster", "dog", "pig", "rat", "ox", "tiger",
                 "rabbit", "dragon", "snake", "horse", "sheep"};
 
 
