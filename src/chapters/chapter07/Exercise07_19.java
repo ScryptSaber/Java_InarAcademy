@@ -10,7 +10,7 @@ public class Exercise07_19 {
 
         int[] numbers = new int[first];
 
-        for (int i = 1; i < numbers.length; i++) {
+        for (int i = 0; i < first; i++) {
             numbers[i] = input.nextInt();
         }
         if (isSorted(numbers)) {
@@ -30,9 +30,9 @@ public class Exercise07_19 {
         for (int i = 1; i < list.length; i++) {
             for (int j = 0; j < list.length - i; j++) {
                 if (list[j] > list[j + 1]) {
-                    temp = list[i];
-                    list[i] = list[i + 1];
-                    list[i + 1] = temp;
+                    temp = list[j];
+                    list[j] = list[j + 1];
+                    list[j + 1] = temp;
                 }
             }
         }
