@@ -19,7 +19,7 @@ public class Exercise07_35 {
             int missTime = 0;
 
             while (true) {
-                System.out.print("(Guess) Enter a letter in word ");
+                System.out.print("(Guess) Enter a Letter in word ");
 
                 for (int i = 0; i < star.length; i++) {
 
