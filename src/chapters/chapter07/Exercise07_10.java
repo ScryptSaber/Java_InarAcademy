@@ -11,7 +11,7 @@ public class Exercise07_10 {
         for (int i = 0; i < array.length; i++) {
             array[i] = input.nextDouble();
         }
-        System.out.println("The index Of Smallest Element: " + indexOfSmallestElement(array));
+        System.out.println("The Index Of Smallest Element: " + indexOfSmallestElement(array));
     }
 
     public static int indexOfSmallestElement(double[] array) {
