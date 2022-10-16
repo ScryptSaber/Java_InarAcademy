@@ -8,7 +8,7 @@ public class Week_10_RandomValuesTo2D {
         System.out.print("Enter Array row number: ");
         int row = input.nextInt();
 
-        System.out.print("Enter array column number: ");
+        System.out.print("Enter Array column number: ");
         int column = input.nextInt();
 
         int[][] array = new int[row][column];
