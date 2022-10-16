@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Week_10_RandomValuesTo2D {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.print("Enter array row number: ");
+        System.out.print("Enter Array row number: ");
         int row = input.nextInt();
 
         System.out.print("Enter array column number: ");
