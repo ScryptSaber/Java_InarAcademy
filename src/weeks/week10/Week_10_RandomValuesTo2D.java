@@ -49,7 +49,7 @@ public class Week_10_RandomValuesTo2D {
                 maxSumIndex = i;
             }
         }
-        System.out.println("The Max sum of row index is: " + maxSumIndex);
+        System.out.println("The Max Sum of row index is: " + maxSumIndex);
     }
 
     public static void findTheMaxSumOfColumn(int[][] array) {
