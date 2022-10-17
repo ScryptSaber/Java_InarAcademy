@@ -49,7 +49,7 @@ public class Exercise07_22 {
             for (int j = 0; j < queens[i]; j++) {
                 System.out.print(" |");
             }
-            System.out.print("Q|");
+            System.out.print("q|");
             for (int k = queens[i] + 1; k < queens.length; k++) {
                 System.out.print(" |");
             }
