@@ -6,7 +6,7 @@ public class Exercise07_05 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int[] distinctNumbers = new int[10];
-        System.out.print("Enter 10 Numbers: ");
+        System.out.print("Enter ten numbers: ");
 
         int count = 0;
         int num;
