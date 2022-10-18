@@ -32,7 +32,7 @@ public class Exercise08_03 {
         }
 
         sort(student);
-        System.out.println("Students in increasing order of the number of correct answers:\n");
+        System.out.println("Students in Increasing order of the number of correct answers:\n");
 
         for (int row = 0; row < student.length; row++) {
             System.out.println("Student " + student[row][0] + "'s correct count is " + student[row][1]);
