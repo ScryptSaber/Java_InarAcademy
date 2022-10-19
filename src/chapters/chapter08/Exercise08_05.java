@@ -4,10 +4,10 @@ import java.util.Scanner;
 
 public class Exercise08_05 {
     public static void main(String[] args) {
-        System.out.print("Enter matrix1:");
+        System.out.print("Enter matrix1: ");
         double[][] matrix1 = getMatrix();
 
-        System.out.print("Enter matrix2:");
+        System.out.print("Enter matrix2: ");
         double[][] matrix2 = getMatrix();
 
         double[][] matrix3 = addMatrix(matrix1, matrix2);
