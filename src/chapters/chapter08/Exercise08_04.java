@@ -23,7 +23,7 @@ public class Exercise08_04 {
         int numOfEmployee = input.nextInt();
 
         int[][] employee = new int[numOfEmployee][7];
-        System.out.println("Enter the work hours of employees:");
+        System.out.println("Enter the working hours of employees:");
 
         for (int i = 0; i < employee.length; i++) {
             for (int j = 0; j < employee[i].length; j++) {
