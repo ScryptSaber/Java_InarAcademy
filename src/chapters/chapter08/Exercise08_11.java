@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Exercise08_11 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.print("Enter a Number between 0 and 511: ");
+        System.out.print("Enter a number between 0 and 511: ");
         int num = input.nextInt();
         String s = Integer.toBinaryString(num);
         String b = "";
