@@ -14,7 +14,7 @@ public class Exercise08_13 {
 
         int[] list = locateLargest(array);
 
-        System.out.println("The location of the largest element is at (" + list[0] + "," + list[1] + ")");
+        System.out.println("The Location of the largest element is at (" + list[0] + "," + list[1] + ")");
 
     }
 
