@@ -10,14 +10,14 @@ public class Exercise08_07 {
 
         int p1 = 0, p2 = 1, p3 = 3;
         double shortestDistance = distance(points[p1][0], points[p1][1], points[p1][2],
-                                           points[p2][0], points[p2][p1], points[p3][p2]);
+                points[p2][0], points[p2][p1], points[p3][p2]);
 
         for (int i = 0; i < points.length; i++) {
             for (int j = i + 1; j < points.length; j++) {
                 double distance = distance(points[i][0], points[i][1], points[i][2],
-                                           points[j][0], points[j][1], points[j][2]);
+                        points[j][0], points[j][1], points[j][2]);
 
-                if (shortestDistance > distance) {
+                if (distance < shortestDistance) {
                     p1 = i;
                     p2 = j;
                     shortestDistance = distance;
@@ -26,10 +26,10 @@ public class Exercise08_07 {
         }
 
         System.out.println("The closest two points are " + "(" + points[p1][0] + ", "
-                       + points[p1][1] + ") and (" + points[p2][0] + ", " + points[p2][1] + ")");
+                + points[p1][1] + ") and (" + points[p2][0] + ", " + points[p2][1] + ")");
     }
 
-    public static double distance(double x1, double y1, double z1, double x2, double y2, double z2){
+    public static double distance(double x1, double y1, double z1, double x2, double y2, double z2) {
         return Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2) + Math.pow(y2 - y1, 2));
     }
 }
