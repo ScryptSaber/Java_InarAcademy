@@ -108,7 +108,7 @@ public class Exercise08_14 {
         if (isSameSubDiagonal) {
             System.out.println("All " + number + "s on sub-diagonal");
         } else {
-            System.out.println("No same numbers on the subdiagonal");
+            System.out.println("No same numbers on the sub-diagonal");
         }
     }
 }
