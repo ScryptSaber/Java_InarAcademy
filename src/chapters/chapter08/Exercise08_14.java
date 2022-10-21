@@ -12,10 +12,9 @@ public class Exercise08_14 {
         displayArray(array);
 
         displayRowControl(array);
-        // TODO displayColumnControl(array);
-       // TODO displayMajorDiagonalControl(array);
-        //TODO displaySubDiagonalControl(array);
-
+        displayColumnControl(array);
+        displayMajorDiagonalControl(array);
+        displaySubDiagonalControl(array);
 
     }
 
@@ -43,21 +42,73 @@ public class Exercise08_14 {
         int count = 0;
         for (int i = 0; i < m.length; i++) {
             boolean isSameRow = true;
-            for (int j = 0; j < m[i].length; j++) {
-                if (m[i][0] != m[i][j]) {
+            int number = m[i][0];
+            for (int j = 1; j < m[i].length; j++) {
+                if (number != m[i][j]) {
                     isSameRow = false;
                 }
             }
             if (isSameRow) {
-                System.out.println("All " + m[i][0] + "s on row " + i);
+                System.out.println("All " + number + "s on row " + i);
                 count++;
             }
         }
-        if(count==0){
+        if (count == 0) {
             System.out.println("No same numbers on a row");
         }
-
-
     }
 
+    public static void displayColumnControl(int[][] m) {
+        int count = 0;
+        for (int j = 0; j < m[0].length; j++) {
+            boolean isSameColumn = true;
+            int number = m[0][j];
+            for (int i = 1; i < m.length; i++) {
+                if (number != m[i][j]) {
+                    isSameColumn = false;
+                }
+            }
+            if (isSameColumn) {
+                System.out.println("All " + number + "s on column " + j);
+                count++;
+            }
+
+        }
+        if (count == 0) {
+            System.out.println("No same numbers on a column");
+        }
+    }
+
+    public static void displayMajorDiagonalControl(int[][] m) {
+        int count = 0;
+        int number = m[0][0];
+        boolean isSameMajorDiagonal = true;
+        for (int i = 1; i < m.length; i++) {
+            if (number != m[i][i]) {
+                isSameMajorDiagonal = false;
+            }
+        }
+        if (isSameMajorDiagonal) {
+            System.out.println("All " + number + " s on major diagonal");
+        } else {
+            System.out.println("No same numbers on the major diagonal");
+        }
+    }
+
+    public static void displaySubDiagonalControl(int m[][]) {
+        int count = 0;
+        int number = m[0][m.length - 1];
+        boolean isSameSubDiagonal = true;
+
+        for (int i = 0, j = m.length - 1; i < m.length; i++, j--) {
+            if (number != m[i][j]) {
+                isSameSubDiagonal = false;
+            }
+        }
+        if (isSameSubDiagonal) {
+            System.out.println("All " + number + "s on subdiagonal");
+        } else {
+            System.out.println("No same numbers on the sub-diagonal");
+        }
+    }
 }
