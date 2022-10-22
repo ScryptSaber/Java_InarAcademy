@@ -19,7 +19,7 @@ public class Exercise08_18 {
     }
 
     public static void displayShuffledArray(int[][] m) {
-        System.out.println("Shuffled Array :");
+        System.out.println("Shuffled array :");
         System.out.print("{");
         for (int i = 0; i < m.length; i++) {
             System.out.print("{" + m[i][0] + ", " + m[i][1] + "}");
