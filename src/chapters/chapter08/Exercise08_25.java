@@ -7,7 +7,7 @@ public class Exercise08_25 {
         double[][] matrix = getMatrixFromUser();
 
         displayMatrix(matrix);
-        System.out.println("It is" + (isMarkovMatrix(matrix) ? "" : " not") + " a Markov matrix");
+        System.out.println("It is" + (isMarkovMatrix(matrix) ? "" : " not") + " a Markov Matrix");
     }
 
     public static double[][] getMatrixFromUser() {
