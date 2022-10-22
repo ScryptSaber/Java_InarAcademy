@@ -6,10 +6,8 @@ public class Exercise08_12 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        // Tax rates
         double[] rates = {0.10, 0.15, 0.25, 0.28, 0.33, 0.35};
 
-        // The brackets for each rate for all the filing statuses
         int[][] brackets = {
                 {8350, 33950, 82250, 171550, 372950},  // Single filer
                 {16700, 67900, 137050, 20885, 372950}, // Married jointly or qualifying widow(er)
@@ -24,7 +22,6 @@ public class Exercise08_12 {
         System.out.print("Enter the taxable income: ");
         double income = input.nextDouble();
 
-        // Display the result
         System.out.printf("Tax is $%6.2f\n", computeTax(brackets, rates, status, income));
     }
 
