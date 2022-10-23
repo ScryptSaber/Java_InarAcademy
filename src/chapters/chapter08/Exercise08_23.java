@@ -9,7 +9,7 @@ public class Exercise08_23 {
         int row = findTheViolatedRow(matrix);
         int column = findTheViolatedColumn(matrix);
 
-        System.out.println("The Flipped Cell is at (" + row + " , " + column + ")");
+        System.out.println("The Flipped cell is at (" + row + " , " + column + ")");
     }
 
     public static int[][] getMatrixFromUser() {
