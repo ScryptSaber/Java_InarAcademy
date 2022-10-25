@@ -19,7 +19,7 @@ public class Exercise08_32 {
         if (result == 0) {
             System.out.println("The three points are on the same line");
         } else {
-            System.out.printf("The area of the triangle is %.2f\n", result);
+            System.out.printf("The Area of the triangle is %.2f\n", result);
         }
     }
 
