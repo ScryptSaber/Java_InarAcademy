@@ -8,7 +8,7 @@ public class Exercise08_32 {
 
         double[][] points = new double[3][2];
 
-        System.out.println("Enter Three points of a triangle:");
+        System.out.println("Enter three points of a triangle:");
         for (int i = 0; i < points.length; i++) {
             for (int j = 0; j < points[i].length; j++) {
                 points[i][j] = input.nextDouble();
