@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Exercise08_37 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.print("Enter number n: ");
+        System.out.print("Eter number n: ");
         int n = input.nextInt();
         char[][] list = new char[n][n];
 
