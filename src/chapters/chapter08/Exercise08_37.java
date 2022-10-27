@@ -18,7 +18,7 @@ public class Exercise08_37 {
                 System.out.println("Your answer is correct");
                 count++;
             } else {
-                System.out.println("The correct answer Should Be " + array[i][1]);
+                System.out.println("The correct answer should be " + array[i][1]);
             }
             i++;
         }
