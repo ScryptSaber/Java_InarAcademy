@@ -28,10 +28,8 @@ public class Exercise08_19 {
     }
 
     public static boolean isConsecutiveFour(int[][] m) {
-        return (isConsecutiveFourAtRows(m) ||
-                isConsecutiveFourAtColumns(m));    //||)
-        //TODO  isConsecutiveFourAtRightDiagonal(m) ||
-        //TODO  isConsecutiveFourAtLeftDiagonal(m));
+        return (isConsecutiveFourAtRows(m) || isConsecutiveFourAtColumns(m) || isConsecutiveFourAtDiagonal(m));
+
     }
 
     public static boolean isConsecutiveFourAtRows(int[][] m) {
@@ -68,8 +66,59 @@ public class Exercise08_19 {
             }
         }
         return false;
-
     }
 
+    public static boolean isConsecutiveFourAtDiagonal(int[][] m) {
+        for (int i = 0; i < m.length; i++) {
+            for (int j = 0; j < m[i].length; j++) {
+                if (isLeftDiagonal(i, j, m) || isRightDiagonal(i, j, m)) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 
+    public static boolean isRightDiagonal(int row, int column, int[][] matrix) {
+
+        if (row >= matrix.length - 3) {
+            return false;
+        }
+        if (column >= matrix[0].length - 3) {
+            return false;
+        }
+        int number = matrix[row][column];
+
+        int count = 1;
+
+        for (int i = 1; i < 4; i++) {
+            if (number == matrix[row + i][column + i]) {
+                count++;
+            }
+        }
+
+        if (count == 4) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    public static boolean isLeftDiagonal(int row, int column, int[][] matrix) {
+        if (row >= matrix.length - 3) {
+            return false;
+        }
+        if (column < 3) {
+            return false;
+        }
+
+        int number = matrix[row][column];
+
+        for (int i = 1; i < 4; i++) {
+            if (number != matrix[row + i][column - i]) {
+                return false;
+            }
+        }
+        return true;
+    }
 }
