@@ -63,9 +63,7 @@ public class Exercise08_35 {
     }
 
     public static void displayResult(int[] array) {
-        for (int e : array) {
-            System.out.println("The maximum square submatrix is at (" + array[0] + "," + array[1] + ")" +
-                    " with size " + array[2]);
-        }
+        System.out.println("The maximum square submatrix is at (" + array[0] + "," + array[1] + ")" +
+                " with size " + array[2]);
     }
 }
