@@ -23,7 +23,7 @@ public class Exercise08_21 {
                 p2 = points[i][1];
             }
         }
-        System.out.println("The central city is at " + "( " + p1 + " ," + p2 + " )");
+        System.out.println("The Central city is at " + "( " + p1 + " ," + p2 + " )");
         System.out.printf("The total distance to all other cities is %.2f ", shortestDistance);
     }
 
