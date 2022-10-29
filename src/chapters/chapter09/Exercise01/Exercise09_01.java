@@ -12,7 +12,7 @@ public class Exercise09_01 {
         System.out.println("Area     : " + r1.getArea());
         System.out.println("Perimeter: " + r1.getPerimeter());
 
-        System.out.println("\n--Rectangle 2--");
+        System.out.println("\n--Rectangle 2-");
         System.out.println("Width    : " + r2.width);
         System.out.println("Height   : " + r2.height);
         System.out.println("Area     : " + r2.getArea());
