@@ -66,7 +66,7 @@ public class FootballClub {
         System.out.println("Balance :" + this.balance);
         System.out.println("Club Name: " + this.clubName);
         System.out.println("TicketFee: " + this.stadium);
-        System.out.println("Stadium: " + this.stadium);
+        System.out.println("Stadium : " + this.stadium);
         System.out.println("Stadium Capacity: " + this.stadiumCapacity);
     }
 }
