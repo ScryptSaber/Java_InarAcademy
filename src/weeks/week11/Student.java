@@ -7,9 +7,9 @@ public class Student {
     private String email;
 
     public Student() {
-        this("","",0,"");
+        this("", "", 0, "");
         //this.name = "";
-       // this.surname = "";
+        // this.surname = "";
         //this.id = 0;
         //this.email = "";
 
