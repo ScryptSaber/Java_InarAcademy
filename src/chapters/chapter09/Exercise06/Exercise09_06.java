@@ -9,7 +9,7 @@ public class Exercise09_06 {
         selectionSort(randomArray);
         stopwatch.stop();
 
-        System.out.println("The execution time of sorting 100,000 " + "numbers using selection sort: "
+        System.out.println("The execution  time of sorting 100,000 " + "numbers using selection sort: "
                 + stopwatch.getElapsedTime() + " milliseconds");
 
     }
