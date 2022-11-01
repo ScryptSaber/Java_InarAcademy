@@ -12,7 +12,7 @@ public class Exercise09_10 {
         double c = input.nextDouble();
         QuadraticEquation qe = new QuadraticEquation(a, b, c);
 
-        System.out.print("The equation has ");
+        System.out.print("The equation has  ");
         if (qe.getDiscriminant() < 0) {
             System.out.println("no real roots");
         } else if (qe.getDiscriminant() > 0) {
