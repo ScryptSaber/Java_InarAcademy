@@ -14,6 +14,6 @@ public class Checkpoint09_31 {
         }
         k = i + j;
         System.out.println("k is " + k);
-        System.out.println("j is " + j);
+        System.out.println("j is  " + j);
     }
 }
