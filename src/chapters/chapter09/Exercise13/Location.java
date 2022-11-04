@@ -24,6 +24,6 @@ public class Location {
         return this.maxValue;
     }
     public String toString(){
-        return "The location of the largest element is " + getMaxValue() + " at (" + getRow() + ", " + getColumn() + ")";
+        return " The location of the largest element is " + getMaxValue() + " at (" + getRow() + ", " + getColumn() + ")";
     }
 }
