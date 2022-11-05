@@ -11,7 +11,7 @@ public class Listing09_07_TestCircleWithStaticMembers {
         Listing09_06_CircleWithStaticMembers c1 = new Listing09_06_CircleWithStaticMembers();
 
         // Display c1 BEFORE c2 is created
-        System.out.println("\nAfter creating c1 ");
+        System.out.println("\nAfter creating c1  ");
         System.out.println("c1: radius (" + c1.radius +
                 ") and number of Circle objects (" + c1.numberOfObjects + ")");
 
