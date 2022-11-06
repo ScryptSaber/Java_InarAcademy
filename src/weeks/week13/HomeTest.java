@@ -12,7 +12,7 @@ public class HomeTest {
         Home villa = new Home(355.12, 4, 15, true, 100_000_000, 50_000, "Guney", 2022);
         villa.print();
 
-        System.out.println("    Apartman: ");
+        System.out.println("    Apartman:  ");
         System.out.println("------------------");
         Home apartman = new Home(55.12, 1, 3, true, 1_000_000, 4_000, "Guney", 2009);
         villa.print();
