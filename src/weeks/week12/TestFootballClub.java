@@ -12,7 +12,7 @@ public class TestFootballClub {
         Player olcay = new Player("Olcay Sahan", 50);
         Player salah = new Player("Muhammed Salah",5_000_000);
 
-        FootballClub dallas_spor = new FootballClub("Dallasspor", 10, 40_000_000l, "Mavericks Stadium", 47856,new Player[5]);
+        FootballClub dallas_spor = new FootballClub("Dallasspor", 10, 50_000_000l, "Mavericks Stadium", 47856,new Player[5]);
         dallas_spor.buyPlayer(messi);
         dallas_spor.buyPlayer(mbappe);
         dallas_spor.buyPlayer(haaland);
@@ -23,7 +23,7 @@ public class TestFootballClub {
 
         dallas_spor.buyPlayer(olcay);
         dallas_spor.buyPlayer(veli);
-        dallas_spor.buyPlayer(maguire);
+        dallas_spor.buyPlayer(salah);
         dallas_spor.buyPlayer(neymar);
 
         System.out.println(dallas_spor.getBalance());
