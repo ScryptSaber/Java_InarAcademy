@@ -9,7 +9,7 @@ public class BMI {
 
 
     public BMI(String name, int age, double weight, double feet, double inches) {
-        
+
 
     }
 }
