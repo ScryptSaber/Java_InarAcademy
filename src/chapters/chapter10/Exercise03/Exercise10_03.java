@@ -4,7 +4,7 @@ public class Exercise10_03 {
     public static void main(String[] args) {
         MyInteger number = new MyInteger(41614161);
 
-        System.out.println("getValue(): " + number.getValue());
+        System.out.println("getValue():  " + number.getValue());
         System.out.println("isEven(): " + number.isEven());
         System.out.println("isOdd(): " + number.isOdd());
         System.out.println("isPrime(): " + number.isPrime());
