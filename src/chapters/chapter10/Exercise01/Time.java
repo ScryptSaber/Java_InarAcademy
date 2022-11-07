@@ -41,7 +41,7 @@ public class Time {
     }
 
     public void print() {
-        System.out.println(this.hour + " : " + this.minute + " : " + this.second);
+        System.out.println(this.hour + ":" + this.minute + ":" + this.second);
 
     }
 }
