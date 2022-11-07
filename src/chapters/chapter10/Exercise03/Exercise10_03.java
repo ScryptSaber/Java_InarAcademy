@@ -5,7 +5,7 @@ public class Exercise10_03 {
         MyInteger number = new MyInteger(41614161);
 
         System.out.println("getValue():  " + number.getValue());
-        System.out.println("isEven(): " + number.isEven());
+        System.out.println("isEven():  " + number.isEven());
         System.out.println("isOdd(): " + number.isOdd());
         System.out.println("isPrime(): " + number.isPrime());
         System.out.println("equals(10): " + number.equals(1000));
