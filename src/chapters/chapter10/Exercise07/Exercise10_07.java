@@ -73,7 +73,7 @@ public class Exercise10_07 {
         System.out.print("Enter the amount to deposit: ");
         int amount = input.nextInt();
         if (amount < 0) {
-            System.out.println("You can't deposite negative value.");
+            System.out.println("You can't deposite negative value..");
             return 0;
         }
         return amount;
