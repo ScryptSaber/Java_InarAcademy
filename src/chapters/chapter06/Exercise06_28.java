@@ -11,7 +11,6 @@ public class Exercise06_28 {
     public static boolean isMersenne(int number) {
         if (Exercise06_27.isPrime((int) (Math.pow(2, number)) - 1)) {
             return true;
-
         }
         return false;
     }

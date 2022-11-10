@@ -41,7 +41,6 @@ public class MyString1 {
             }
         }
         return new MyString1(ch);
-
     }
 
     public boolean equals(MyString1 str) {
