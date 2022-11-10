@@ -4,8 +4,8 @@ public class Exercise10_11 {
     public static void main(String[] args) {
         Circle2D c1 = (new Circle2D(2, 2, 5.5));
 
-        System.out.println("Circle1 area:  " + c1.getArea());
-        System.out.println("Circle1 perimeter:  " + c1.getPerimeter());
+        System.out.println("Circle1 area: " + c1.getArea());
+        System.out.println("Circle1 perimeter: " + c1.getPerimeter());
 
         System.out.println("Does circle1 contain the point (3, 3)? --> " + c1.contains(3, 3));
 
