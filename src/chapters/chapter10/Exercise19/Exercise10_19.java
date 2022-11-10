@@ -25,5 +25,6 @@ public class Exercise10_19 {
             x = x.multiply(two);
         }
         return x.subtract(BigInteger.ONE);
+        
     }
 }
