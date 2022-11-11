@@ -56,6 +56,5 @@ public class Exercise10_15 {
             points[p][1] = input.nextDouble();
         }
         return points;
-
     }
 }
