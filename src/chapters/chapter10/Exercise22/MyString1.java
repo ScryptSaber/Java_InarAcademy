@@ -16,15 +16,14 @@ public class MyString1 {
     }
 
     public MyString1 substring(int begin, int end) {
-        if (begin < 0 || begin > length()|| end < 0 || end > length() || begin > end) {
+        if (begin < 0 || begin > length() || end < 0 || end > length() || begin > end) {
             System.out.println("Invalid substring parameters!");
-            System.exit(-1);
+            System.exit(-1); //It is better to throw an exception, i think..
         }
-
         char[] newArray = new char[end - begin];
 
-        for (int newIndex = 0, oldIndex = begin; newIndex < newArray.length; newIndex++, oldIndex++) {
-            newArray[newIndex] = charAt(oldIndex);
+        for (int i = begin; i < end; i++) {
+            newArray[i] = charAt(i);
         }
         return new MyString1(newArray);
     }
@@ -62,18 +61,18 @@ public class MyString1 {
 
         while (number > 0) {
             number /= 10;
-            counter++;
+            counter++;         //finds number of digits
         }
         char[] ch = new char[counter];
 
         for (int j = counter - 1; j >= 0; j--) {
-
             ch[j] = (char) ('0' + i % 10);
             i /= 10;
         }
         return new MyString1(ch);
 
     }
+
     public String toString() {
         String s = new String(chars);
         return s;
