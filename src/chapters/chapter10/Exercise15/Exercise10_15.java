@@ -58,4 +58,5 @@ public class Exercise10_15 {
         return points;
 
     }
+    
 }
