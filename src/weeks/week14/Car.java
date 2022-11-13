@@ -34,7 +34,7 @@ public class Car extends Vehicle{
     @Override
     public String toString() {
         return super.toString() +
-                "\nPlaka :  " + this.plaka +
-                "\nMarka : " + this.marka;
+                "\nPlaka : " + this.plaka +
+                "\nMarka :  " + this.marka;
     }
 }
