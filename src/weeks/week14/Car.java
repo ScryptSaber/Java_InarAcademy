@@ -35,6 +35,6 @@ public class Car extends Vehicle{
     public String toString() {
         return super.toString() +
                 "\nPlaka :  " + this.plaka +
-                "\nMarka : " + this.marka;
+                "\nMarka :  " + this.marka;
     }
 }
