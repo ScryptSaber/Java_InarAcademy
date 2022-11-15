@@ -12,7 +12,7 @@ class Insan extends Canli{
         System.out.println("Insan sinifi");
     }
     public void ctest(){
-        System.out.println("Canli Test");
+        System.out.println("Canli Test ");
     }
 }
 class Hayvan extends Canli{
