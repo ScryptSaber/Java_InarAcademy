@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Exercise06_22 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.print("Enter the n: ");
+        System.out.print("Enter the n : ");
         long num = input.nextLong();
         System.out.println("The approximated square root of " + num + " is: " + sqrt(num));
     }
