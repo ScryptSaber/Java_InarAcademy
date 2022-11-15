@@ -42,6 +42,5 @@ public class Polimorfizm {
         nesneAl(b);
 
         nesneAl(c1);
-
     }
 }
