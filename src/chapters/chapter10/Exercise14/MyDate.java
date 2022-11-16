@@ -7,7 +7,7 @@ public class MyDate {
     private int month;
     private int year;
 
-    MyDate() {
+    public MyDate() {
         this(System.currentTimeMillis());
     }
 
@@ -41,5 +41,9 @@ public class MyDate {
         year = calander.get(GregorianCalendar.YEAR);
         month = calander.get(GregorianCalendar.MONTH);
         day = calander.get(GregorianCalendar.DAY_OF_MONTH);
+    }
+    @Override
+    public String toString(){
+        return getDay()+"."+getMonth()+"."+getYear();
     }
 }

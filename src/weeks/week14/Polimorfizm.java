@@ -36,6 +36,7 @@ public class Polimorfizm {
         ((Insan) c1).ctest();
        // Insan c2 = (Insan) c; // We cannot cast to Insan
 
+
         nesneAl(c);
         nesneAl(i);
         nesneAl(h);
