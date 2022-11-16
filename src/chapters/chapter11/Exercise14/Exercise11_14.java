@@ -30,5 +30,6 @@ public class Exercise11_14 {
             list.add(input.nextInt());
         }
         return list;
+        
     }
 }
