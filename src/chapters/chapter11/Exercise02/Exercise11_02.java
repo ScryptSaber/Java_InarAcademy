@@ -22,7 +22,7 @@ public class Exercise11_02 {
         System.out.println("   _Person_ ");
         System.out.println(person);
 
-        System.out.println("   _Student_  ");
+        System.out.println("   _Student_ ");
         System.out.println(student);
 
         System.out.println("   _Employee_ ");
