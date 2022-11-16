@@ -25,7 +25,7 @@ public class Exercise11_02 {
         System.out.println("   _Student_ ");
         System.out.println(student);
 
-        System.out.println("   _Employee_");
+        System.out.println("   _Employee_ ");
         System.out.println(employee);
 
         System.out.println(faculty);
