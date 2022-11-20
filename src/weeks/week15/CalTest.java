@@ -15,17 +15,27 @@ public class CalTest {
 
         switch (c) {
             case ("sum"):
-                Calculator.sum(n1, n2);
+                print(Calculator.sum(n1, n2));
                 break;
             case ("subtract"):
-                Calculator.sum(n1, n2);
+                print(Calculator.subtract(n1, n2));
                 break;
             case ("multiply"):
-                Calculator.sum(n1, n2);
+                print(Calculator.multiply(n1, n2));
                 break;
             case ("divide"):
-                Calculator.sum(n1, n2);
+                print(Calculator.divide(n1, n2));
                 break;
+            case ("mod"):
+                print(Calculator.mod(n1, n2));
+                break;
+            default:
+                System.out.println("No operation like that !!");
         }
     }
+
+    public static void print(Number n3) {
+        System.out.println("After calculation the number is " + n3.getValue());
+    }
 }
+
