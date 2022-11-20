@@ -36,5 +36,4 @@ public class Calculator {
         n1.setValue(n1.getValue() * -1);
     }
 
-
 }
