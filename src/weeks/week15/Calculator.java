@@ -27,6 +27,7 @@ public class Calculator {
         n1 = null;
         n2 = null;
     }
+
     public static void reset(Number n1) {
         n1 = null;
     }
