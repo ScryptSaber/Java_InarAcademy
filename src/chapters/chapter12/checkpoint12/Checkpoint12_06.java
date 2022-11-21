@@ -10,7 +10,7 @@ public class Checkpoint12_06 {
             }
         }
 
-        System.out.println("\n-------");
+        System.out.println("\n--------");
         try {
             for (int i = 0; i < 2; i++) {
                 System.out.print(i + " ");
