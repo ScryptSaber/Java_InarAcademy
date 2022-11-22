@@ -22,7 +22,7 @@ public class Exercise12_06 {
         for (int i = 0; i < hex.length(); i++) {
             char c = hex.charAt(i);
             if (!((c >= '0' && c <= '9') || (c >= 'A' && c <= 'F'))) {
-                throw new NumberFormatException("It is not a hex string..");
+                throw new NumberFormatException("It is not a hex string.");
             }
             char hexChar = hex.charAt(i);
             decimalValue = decimalValue * 16 + hexCharToDecimal(hexChar);
