@@ -1,8 +1,8 @@
-package chapters.chapter12.Exercise06;
+package chapters.chapter12.Exercise08;
 
 import java.util.Scanner;
 
-public class Exercise12_06 {
+public class Exercise12_08 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
@@ -16,13 +16,13 @@ public class Exercise12_06 {
         }
     }
 
-    public static int hex2Dec(String hex) throws NumberFormatException {
+    public static int hex2Dec(String hex) throws HexFormatException {
         int decimalValue = 0;
 
         for (int i = 0; i < hex.length(); i++) {
             char c = hex.charAt(i);
             if (!((c >= '0' && c <= '9') || (c >= 'A' && c <= 'F'))) {
-                throw new NumberFormatException("It is not a hex string.!");
+                throw new HexFormatException("It is not a hex string.!");
             }
             char hexChar = hex.charAt(i);
             decimalValue = decimalValue * 16 + hexCharToDecimal(hexChar);

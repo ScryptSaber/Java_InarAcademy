@@ -1,8 +1,8 @@
-package chapters.chapter12.Exercise07;
+package chapters.chapter12.Exercise09;
 
 import java.util.Scanner;
 
-public class Exercise12_07 {
+public class Exercise12_09 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
@@ -11,18 +11,18 @@ public class Exercise12_07 {
 
         try {
             System.out.println("The decimal value for binary number " + bin + " is " + bin2Dec(bin.toUpperCase()));
-        } catch (NumberFormatException ex) {
+        } catch (BinaryFormatException ex) {
             System.out.println(ex.getMessage());
         }
     }
 
-    public static int bin2Dec(String bin) throws NumberFormatException {
+    public static int bin2Dec(String bin) throws BinaryFormatException {
         int decimalValue = 0;
 
         for (int i = 0; i < bin.length(); i++) {
             char c = bin.charAt(i);
             if (!(c == '0' || c == '1')) {
-                throw new NumberFormatException("It is not a binary string");
+                throw new BinaryFormatException("It is not a binary string.!");
             }
             char binChar = bin.charAt(i);
             decimalValue = decimalValue * 2 + binCharToDecimal(binChar);
