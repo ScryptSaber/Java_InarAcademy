@@ -8,7 +8,7 @@ public class Listing12_13_WriteData {
     public static void main(String[] args) throws IOException {
         File file = new File("scores.txt");
         if (file.exists()) {
-            System.out.println("File already exists");
+            System.out.println("File already exists ");
             System.exit(1);
         }
 
