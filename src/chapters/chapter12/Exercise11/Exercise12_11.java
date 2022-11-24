@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class Exercise12_11 {
     public static void main(String[] args) throws Exception {
         if (args.length != 2) {
-            System.out.println("Usage: java Exercise12_11 word filename ");
+            System.out.println("Usage: java Exercise12_11 word filename");
             System.exit(0);
         }
         File file = new File(args[1]);
