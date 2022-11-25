@@ -55,5 +55,7 @@ public class Exercise12_15 {
                 output.printf("%3d", random);
             }
         }
+
+        
     }
 }
