@@ -14,18 +14,15 @@ public class Exercise12_11 {
 
         String newStr = "";
         String s = "";
-
-        Scanner input = new Scanner(file);
-        PrintWriter output = new PrintWriter(file);
-
-        while (input.hasNext()) {
-            s = input.nextLine();
-            newStr += s.replaceAll(args[0] + "", "") + "\n";
+        try (
+                Scanner input = new Scanner(file);
+                PrintWriter output = new PrintWriter(file);
+        ) {
+            while (input.hasNext()) {
+                s = input.nextLine();
+                newStr = s.replaceAll(args[0] + "", "");
+                output.print(newStr);
+            }
         }
-        output.print(newStr);
-
-        input.close();
-        output.close();
-
     }
 }
