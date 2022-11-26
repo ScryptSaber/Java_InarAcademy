@@ -1,0 +1,60 @@
+package chapters.chapter12.Exercise22;
+
+import java.io.File;
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Exercise12_22 {
+    public static void main(String[] args) throws Exception {
+        if (args.length != 3) {
+            System.out.println("Usage: java Exercise12_22 dir oldString newString");
+            System.exit(1);
+        }
+
+        File directory = new File(args[0]);
+        if (!directory.exists()) {
+            System.out.println("There isn't any directory");
+            System.exit(2);
+        }
+
+        ArrayList<File> directories = new ArrayList<>();
+        directories.add(directory);
+
+        while (!directories.isEmpty()) {
+            File file = directories.remove(0);
+            if (file.isDirectory()) {
+                File[] files = file.listFiles();
+
+                for (int i = 0; i < files.length; i++) {
+                    if (files[i].isDirectory()) {
+                        directories.add(files[i]);
+                    } else
+                        replaceString(files[i], args);
+                }
+            }
+        }
+    }
+
+    public static void replaceString(File file, String[] args) throws IOException {
+        String s = "";
+        ArrayList<String> list = new ArrayList<>();
+        try (
+                Scanner input = new Scanner(file);
+        ) {
+            while (input.hasNext()) {
+                s = input.nextLine();
+                list.add(s.replaceAll(args[1], args[2]));
+            }
+        }
+        try (
+                PrintWriter output = new PrintWriter(file);
+        ) {
+            for (int i = 0; i < list.size(); i++) {
+                output.println(list.get(i));
+            }
+        }
+    }
+}
+
