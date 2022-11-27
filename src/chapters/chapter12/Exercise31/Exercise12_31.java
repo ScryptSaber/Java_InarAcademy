@@ -42,4 +42,5 @@ public class Exercise12_31 {
             System.out.println("The name " + name + " is not ranked in year " + year);
         }
     }
+    
 }
