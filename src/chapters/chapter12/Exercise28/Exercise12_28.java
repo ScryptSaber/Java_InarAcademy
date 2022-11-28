@@ -22,5 +22,4 @@ public class Exercise12_28 {
             file.renameTo(newName);
         }
     }
-    
 }
