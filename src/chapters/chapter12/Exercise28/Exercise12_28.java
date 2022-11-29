@@ -21,7 +21,5 @@ public class Exercise12_28 {
             File newName = new File(String.valueOf(sb1));
             file.renameTo(newName);
         }
-
-        
     }
 }
