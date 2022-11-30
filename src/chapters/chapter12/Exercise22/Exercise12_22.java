@@ -13,14 +13,14 @@ public class Exercise12_22 {
             System.exit(1);
         }
 
-        File directory = new File(args[0]);
-        if (!directory.exists()) {
+        File dir = new File(args[0]);
+        if (!dir.exists()) {
             System.out.println("There isn't any directory");
             System.exit(2);
         }
 
         ArrayList<File> directories = new ArrayList<>();
-        directories.add(directory);
+        directories.add(dir);
 
         while (!directories.isEmpty()) {
             File file = directories.remove(0);
