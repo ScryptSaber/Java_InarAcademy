@@ -6,5 +6,4 @@ public class Checkpoint13_6 {
         System.out.println(x.intValue());
         System.out.println(x.doubleValue());
     }
-    
 }
