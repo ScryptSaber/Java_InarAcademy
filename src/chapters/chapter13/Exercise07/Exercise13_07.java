@@ -16,5 +16,4 @@ public class Exercise13_07 {
             ((Square) squares[i]).howToColor();
         }
     }
-    
 }
