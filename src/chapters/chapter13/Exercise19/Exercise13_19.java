@@ -18,6 +18,4 @@ public class Exercise13_19 {
         System.out.println("The fraction number is " + r);
 
     }
-
-    
 }
