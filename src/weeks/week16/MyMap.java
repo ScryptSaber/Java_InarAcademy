@@ -15,6 +15,5 @@ public class MyMap {
         for (Integer key : set) {
             System.out.println(map.get(key));
         }
-        
     }
 }
