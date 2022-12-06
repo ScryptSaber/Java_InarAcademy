@@ -1,5 +1,6 @@
 package chapters.chapter21.map;
 
+import java.math.BigInteger;
 import java.util.*;
 
 public class Exercise07_03_Map {
@@ -14,17 +15,20 @@ public class Exercise07_03_Map {
             list.add(num);
             num = input.nextInt();
         }
-        for (int j = 0; j < 100; j++) {
-            if (list.contains(j)) {
-                if (map.containsKey(j)) {
-                    int number = map.get(j);
-                    map.put(j, number + 1);
+
+        for (int j = 0; j < list.size(); j++) {
+            int n = list.get(j);
+
+            if (list.contains(n)) {
+                if (map.containsKey(n)) {
+                    int number = map.get(n);
+                    map.put(n, number + 1);
                 } else {
-                    map.put(j, 1);
+                    map.put(n, 1);
                 }
             }
         }
-        print(map);//There is a mistake here but i will fix it.
+        print(map);
 
     }
 
@@ -33,7 +37,6 @@ public class Exercise07_03_Map {
         for (Integer key : set) {
             System.out.println(key + " occurs " + map.get(key) + " time");
         }
-
     }
 }
 
