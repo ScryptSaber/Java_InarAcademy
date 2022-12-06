@@ -24,7 +24,7 @@ public class Exercise07_03_Map {
                 }
             }
         }
-        print(map);//There is a mistake here but i will fix it
+        print(map);//There is a mistake here but i will fix it.
 
     }
 
@@ -33,7 +33,7 @@ public class Exercise07_03_Map {
         for (Integer key : set) {
             System.out.println(key + " occurs " + map.get(key) + " time");
         }
-        
+
     }
 }
 
