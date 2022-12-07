@@ -36,6 +36,5 @@ public class Exercise21_06 {
                 System.out.print(entry.getKey() + " ");
             }
         }
-        
     }
 }
