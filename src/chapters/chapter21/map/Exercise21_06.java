@@ -35,6 +35,7 @@ public class Exercise21_06 {
             if (entry.getValue() == max) {
                 System.out.print(entry.getKey() + " ");
             }
+            
         }
     }
 }
