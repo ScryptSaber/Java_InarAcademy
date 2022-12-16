@@ -26,7 +26,6 @@ public class Exercise21_06 {
                     map.put(n, 1);
                 }
             }
-            
         }
 
         int max = Collections.max(map.values());
